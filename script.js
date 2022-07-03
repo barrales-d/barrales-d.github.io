@@ -21,17 +21,17 @@ instagram.addEventListener('mouseleave', ogBackground);
 //functions to call from event listeners 
 //changes the background
 function githubBackground() {
-  background.style.backgroundImage = "url('backgrounds/github.jpg')";
+  background.style.backgroundImage = "url('github.jpg')";
 }
 
 function linkedinBackground(){
-  background.style.backgroundImage = "url('backgrounds/linkedin.jpg')";
+  background.style.backgroundImage = "url('linkedin.jpg')";
 }
 
 function instagramBackground(){
-  background.style.backgroundImage = "url('backgrounds/instagram.jpg')";
+  background.style.backgroundImage = "url('instagram.jpg')";
 }
 
 function ogBackground(){
-  background.style.backgroundImage = "url('backgrounds/stars.jpg')";
+  background.style.backgroundImage = "url('stars.jpg')";
 }
