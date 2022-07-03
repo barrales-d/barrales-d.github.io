@@ -1,0 +1,58 @@
+*{
+  outline:0px;
+  margin:0px;
+  padding:0px;
+  font-family: 'Cabin';
+}
+a {
+  text-decoration: none;
+}
+
+.main_title {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  font-size: 30px;
+}
+
+.main_button {
+  inherits: inherit;
+  background:rgb(189, 200, 255);
+  padding:10px;
+  border-radius:20px;
+  width: 500px;
+  color:rgb(24, 73, 12);
+/*   color:rgb(255, 252, 229); */
+  margin:10px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#background{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-image: url('backgrounds/stars.jpg');
+  background-size: cover;
+  z-index: -1;  
+  transition: background linear;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
