@@ -9,7 +9,7 @@ function sendEmail() {
     const msg = form.elements['Message'].value;
 
     const link = 'mailto:' + encodeURIComponent(myEmail)
-        + "&subject=Feedback from: " + encodeURIComponent(name)
+        + "?subject=Feedback from: " + encodeURIComponent(name)
         + "&body=" + encodeURIComponent(msg);
 
     window.open(link);
