@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diego Barrales</title>
+
+    <!--IMPORTS FROM WEB-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@458&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/307b1268f0.js" crossorigin="anonymous"></script>
+
+
+    <!--LOCAL LINKS-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="character.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+    <script defer src="contact-form.js"></script>
+</head>
+<body>
+    <!--CSS ART-->
+    <div class="art">
+        <div class="body">
+            <div class="cross"></div>
+            <div class="circle"></div>
+            <div class="eyes"></div>
+            <div class="belly"></div>
+            <div class="mouth"></div>
+        </div>
+    </div>
+    <header>
+        <img src="files/bg2.png" id="Profile"/>
+    </header>
+    <!--NAVIGATION BAR-->
+    <nav class="NavigationBar" id="Nav">
+        <div id="nav-top">
+            <div><a href="#"style="all:unset; cursor:pointer;">Diego Barrales</a></div>
+            <button id="Menu" onclick="toggleMenu()"><i class="fa fa-bars"></i></button>
+        </div>
+        <div id="nav-links">
+            <a href="#AboutMe">About Me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+            <a href="files/diego_barrales_resume.docx" download>
+                <i class="fas fa-file-word"></i>
+                Resume
+            </a>
+        </div>
+    </nav>
+
+    <!--ABOUT ME SECTION-->
+    <div id="AboutMe" class="body-container">
+        <div class="content-title">About me</div>
+        <article class="flex-container" style="height: 80vh;">
+            <!--left side of container profile image + icon links-->
+            <aside style="flex-direction: column;">
+                <img src="files/bg2.png" id="Profile" class="flex-item"/>
+                <section style="height: 40%; outline: none;" class="flex-container">
+                    <a href="http://www.github.com/barrales-d" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href=" http://www.linkedin.com/in/diego-barrales-514aa61bb/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/diegobarrales._/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </section>
+            </aside>
+            <!--right side of container just text-->
+            <section class="flex-item" id="code-box">
+                <code>
+                    <i id="blue">struct</i> <i id="teal">Diego</i> {<br />
+                    &emsp;std::<i id="teal">string</i> location =
+                    <i id="orange">"Los Angeles, CA"</i>;<br />
+                    &emsp;std::<i id="teal">string</i> education =
+                    <i id="orange">"Cal State Fullerton"</i>;<br />
+                    &emsp;std::<i id="teal">string</i>  major =
+                    <i id="orange">"Computer Science, B.S"</i>;<br />
+                    &emsp;std::<i id="teal">string</i> expectedGraduation =
+                    <i id="orange">"May 2024"</i>;<br />
+                    &emsp;std::<i id="teal">string</i> interests[5] = <br />
+                    &emsp;&emsp;
+                    [<i id="orange">"Coffee"</i>,
+                    <i id="orange">"Coding"</i>,
+                    <i id="orange">"Running"</i>,
+                    <i id="orange">"Drawing"</i>,
+                    <i id="orange">"Anime"</i>];<br />
+                    &emsp;std::<i id="teal">string</i><i id="orange"> whoAmI</i>() {<br />
+                    &emsp;&emsp;<i id="blue">return</i> <i id="orange">"I am a Mexican American who is energetic and enthusiastic about coding.
+                    I think coding is fun and when I don't understand something, I enjoy finding the solutions to problems. 
+                    Moving on from code, I would consider my family to be a big part of who I am because they are one of the 
+                    reason I am here at Fullerton, studying computer science; They push me to be the best that I can be."</i>;<br />
+                    &emsp;}<br />
+                    };<br />
+                </code>
+            </section>
+        </article>
+    </div>
+    <!--SKILLS SECTION-->
+    <div id="Skills" class="body-container">
+        <div class="content-title">Skills</div>
+        <div class="flex-container" style="flex-wrap: wrap; height: 150vh;" id="code-box">
+            <div class="flex-item" id="skill-card">
+                <i class="fa fa-atom" style="font-size: 50px;"></i>
+                <h2>C++</h2>
+                <p>
+                    I have 3 year of C++ programming experience.<br />
+                    During which I have done many projects to learn and practice algorithms and coding concepts.
+                </p>
+            </div>
+            <div class="flex-item" id="skill-card">
+                <i class="fab fa-html5" style="font-size: 50px;"></i>
+                <h2>html, css, javascript</h2>
+                <p>
+                    I have about 2 years of experience in frontend development. <br />
+                    I have done hackathons, School projects, and Personal Projects to teach myself the fundumentals of web development.
+                </p>
+            </div>
+            <div class="flex-item" id="skill-card">
+                <i class="fab fa-swift" style="font-size: 50px;"></i>
+                <h2>Swift</h2>
+                <p>
+                    I've only used swift for 1 year but during this year I was able to.....<br />
+                    team up with other, learn a new language, and practice new concepts such as API calls.
+                </p>
+            </div>
+            <div class="flex-item" id="skill-card">
+                <i class="fa fa-database" style="font-size: 50px;"></i>
+                <h2>MySQL</h2>
+                <p>texter reinroen rioenieor nioneoinr oien ioe</p>
+            </div>
+            <div class="flex-item" id="skill-card">
+                <i class="fab fa-r-project" style="font-size: 50px;"></i>
+                <h2>R/RStudio</h2>
+                <p>texter reinroen rioenieor nioneoinr oien ioe</p>
+            </div>
+            <div class="flex-item" id="skill-card">
+                <i class="fab fa-discord" style="font-size: 50px;"></i>
+                <h2>Communication</h2>
+                <p>Throughout my years of coding, I have to work with many different teams and individuals. I have worked well with all of them and used discord for messaging, meetings, and sharing links.</p>
+            </div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-microsoft" style="font-size:50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-git-alt" style="font-size: 50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-linux" style="font-size: 50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-ubuntu" style="font-size: 50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-apple" style="font-size: 50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><i class="fab fa-unity" style="font-size: 50px;"></i></div>
+            <div id="skill-card" style=" width: 100px; height: 60px;"><b style="font-size: 50px;">C#</b></div>
+        </div>
+    </div>
+    <!--PROJECT SECTION-->
+    <div id="Projects" class="body-container">
+        <div class="content-title">Projects</div>
+
+        <section class="grid-container">
+            <figure>
+                <img src="files/bubbles.png" />
+                <figcaption>
+                    <h3>Learning Sort Algorithms</h3> 
+                    <p>
+                        It required 3 methods to implement within a bubble sort class.
+                        <br /><br />
+                        Coding this beginner friendly sorting algorithm really helped me
+                        understand algorithms more.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="files/bank_card_4.png" />
+                <figcaption>
+                    <h3>Barrales Banking Record System</h3>
+                    <p>
+                        Learned more about Windows file system and how c++ handles file management.
+                        I treated the file like an API request by retrieving data from the file
+                        and put it into a data structure. This way during runtime I could make
+                        changes to the data from within the data structures.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="files/airplane.png" />
+                <figcaption>
+                    <h3>iTravel App</h3>
+                    <p>
+                        This project attempted to create an application helps
+                        travelers be stress-free, allowing travelers to focus more on enjoying their
+                        experience, rather than being stressed out over fight information,
+                        and allowed travelers to have all of their information in one application.
+                        I learned about databases and APIs while learning Swift.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="files/double_pipes.png" />
+                <figcaption>
+                    <h3>IPC: Pipes</h3>
+                    <p>
+                        A program that creates different process by calling fork().
+                        <br />  
+                        This program also allows for Interprocess communication between the parent and child processes
+                        through the use of double pipes
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="files/books.png" />
+                <figcaption>
+                    <h3>Book Management System</h3>
+                    <p>
+                        A program that uses different data structures to storage and manage book data.
+                        <br />
+                        It explores the disavantages and benefits of using certain data structures:
+                        vector, double linked list, single linked list, binary search tree, hash table.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="files/vectors.png" />
+                <figcaption>
+                    <h3>Vector2D Structure</h3>
+                    <p>
+                        A data structure I created when I was in Math 270B which introduced me to mathematical vectors.
+                        <br />
+                        Vector2d is a template struct that will create a 2d vector and you can do basic vector math with scalars, dot products, and more.
+                        With it I was able do the beginning of a physics engine with have different forces interact.
+                    </p>
+                </figcaption>
+            </figure>
+        </section>
+    </div>
+    <!--CONTACT SECTION-->
+    <div id="Contact" class="body-container">
+        <div class="content-title">Connect with me</div>
+        <div class="form-container">
+            <section style="outline: none;" class="flex-container">
+                <a href="http://www.github.com/barrales-d" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href=" http://www.linkedin.com/in/diego-barrales-514aa61bb/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/diegobarrales._/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://discord.com/users/DiegoB#0370" target="_blank">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </section>
+            <form action="javascript:sendEmail()" method="post" class="form-container" style="margin-left: 1.5rem;">
+                <label for="Name" class="form-label">Name: &emsp;</label>
+                <input type="text" id="Name" name="Name" class="form-input" required /><br />
+
+                <label for="Email" class="form-label">Email: &emsp;</label>
+                <input type="email" id="Email" name="Email" class="form-input" required /> <br />
+
+                <label for="Message" class="form-label">Message: &emsp;</label>
+                <textarea id="Message" name="Message" class="form-input" rows="6" maxlength="3000" required></textarea> <br />
+                <br />
+
+                <!--<button id="submit" value="Submit" class="form-submit">Send</button>-->
+                <input type="submit" value="Submit" class="form-submit" />
+            </form>
+        </div>
+    </div>
+    <!--FOOTER SECTION-->
+    <footer>
+        &copy; Diego Barrales | 2022 <br />
+        <a href="mailto:dbarrales06@gmail.com">
+            <i class="fa fa-envelope"></i>
+        </a>
+        <a href="http://www.github.com/barrales-d" target="_blank">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href=" http://www.linkedin.com/in/diego-barrales-514aa61bb/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/diegobarrales._/" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://discord.com/users/DiegoB#0370" target="_blank">
+            <i class="fab fa-discord"></i>
+        </a>
+    </footer>
+    <!--BOX FOR DEBUGGING-->
+    <!--<div style="width: 100px; height:100px; background-color:aqua;"></div>-->
+
+</body>
+</html>
