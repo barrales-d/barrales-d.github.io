@@ -332,4 +332,8 @@ footer > * {
     .form-container > .form-container {
         grid-template: auto / auto auto auto;
     }
+    article.flex-container > .flex-item {
+        margin: 1px;
+        width: 100vmin;
+    }
 }

@@ -1,5 +1,5 @@
 ﻿
-const myEmail = 'barrales-d06@gmail.com';
+const myEmail = 'dbarrales06@gmail.com';
 
 
 function sendEmail() {
@@ -9,7 +9,6 @@ function sendEmail() {
     const msg = form.elements['Message'].value;
 
     const link = 'mailto:' + encodeURIComponent(myEmail)
-        + '?cc=' + encodeURIComponent(email)
         + "&subject=Feedback from: " + encodeURIComponent(name)
         + "&body=" + encodeURIComponent(msg);
 
