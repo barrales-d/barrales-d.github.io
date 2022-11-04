@@ -15,6 +15,7 @@
     outline: 0px;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 a {
     text-decoration: none; 
