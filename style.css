@@ -1,5 +1,5 @@
 ﻿:root {
-    --black: #071108;
+    --black: #0d1b0ff6;
     --white: #FFF8F0;
     --lightblue: #71A9F7;
     --blackopacity1: #071108a6;
@@ -60,15 +60,17 @@ body {
     font-weight: 500;
     background-color: var(--black);
     color: var(--white);
+    transition: all 1s ease;
 }
 #nav-top > div {
     font-weight: 900;
 }
 #nav-top > button:hover,
 #nav-links> *:hover {
-    background-color: var(--white);
-    color: var(--black);
+    color: var(--lightblue);
     border: none;
+    text-decoration: underline;
+    text-shadow:  2px 2px 1em var(--lightblue);
 }
 header {
     display: grid;
@@ -262,6 +264,7 @@ div > .form-container {
     font-size: 30px;
     color: var(--white);
     background-color: var(--blackopacity1);
+    transition: all 1s 0.3s ease;
 }
 .form-submit:hover{
     background-color: var(--white);
