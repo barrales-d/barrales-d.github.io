@@ -74,12 +74,15 @@ function getProjects() {
 
 /* TODOs
 
-  //  Explore writing to the projects.json file
-  //  Read the json file
+  //  Make projects to global variable so you can push to it easier
+      //  create add button / eventlistener to add a project to the array
+      //  Use postProjects to update the json
+
   //  populate the html project section with JSON information
 
 */
 
+//  MAIN 
 (() => {
   getProjects();
 })();
