@@ -62,7 +62,7 @@ function projectSection(projects) {
   for(const project of projects) {
     cards.push(projectCard(project));
   }
-  return new Tag('section', cards).addAttribute('class', 'grid-container').get();
+  return new Tag('section', ...cards).addAttribute('class', 'grid-container').get();
 }
 
 //  MAIN 
@@ -101,7 +101,8 @@ window.onload = () => {
   ]`);
 
   console.log(
-    projectCard(projects[0])
+    projectCard(projects[0]),
+    projectSection(projects)
   )
 
 };
