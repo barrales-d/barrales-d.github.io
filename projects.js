@@ -101,8 +101,7 @@ window.onload = () => {
   ]`);
 
   console.log(
-    projectCard(projects[0]),
-    projectSection(projects)
+    new Tag('div', projectTitle(), projectSection(projects)).get()
   )
 
 };
