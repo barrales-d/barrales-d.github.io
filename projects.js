@@ -53,7 +53,7 @@ function projectContent(title, desc) {
 function projectCard(project) {
   const content = projectContent(project.title, project.desc);
   return new Tag('figure', 
-                  new Tag('img').addAttribute('src', project.img).get(),
+                  new Tag('img').addAttribute('src', project.image).get(),
                   content).get();
 }
 
