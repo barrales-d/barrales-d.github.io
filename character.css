@@ -70,7 +70,7 @@
     position: relative;
     top: 0vmin;
     right: 2vmin;
-    background: var(--black);
+    background: var(--bg);
 }
 .eyes::before {
     position: absolute;
@@ -78,7 +78,7 @@
     content: ' ';
     width: 6vmin;
     height: 1vmin;
-    background: var(--black);
+    background: var(--bg);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -88,7 +88,7 @@
     content: ' ';
     width: 6vmin; 
     height: 1vmin;
-    background: var(--black);
+    background: var(--bg);
     
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -98,7 +98,7 @@
     position: absolute;
     width: 5vmin;
     height: 2vmin;
-    border: 0.7vmin solid var(--black);
+    border: 0.7vmin solid var(--bg);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-top: 0;
