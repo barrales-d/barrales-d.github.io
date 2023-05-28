@@ -204,8 +204,8 @@ code > #orange {
     display: grid;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    padding: 20px;
-    grid-template: 410px / auto auto auto auto;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
     place-content: center;
     width: min(100% - 100px, 90%);
     margin-left: 2%;
@@ -214,24 +214,24 @@ code > #orange {
     color: var(--font_color);
 }
 .grid-container > * {
-    height: 400px;
-    padding: 5px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     border-radius: 20px;
     background-color: var(--bg);
     box-shadow: inset  1px 5px 10px 1px var(--font_color);
 }
 figure > img {
-    width: 30vmin;
-    height: 30vmin;
+    width: 100px;
+    height: 100px;
 }
 figure > figcaption {
     color: var(--font_color);
     display: -webkit-box;
-
     -webkit-line-clamp: 7;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;}
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 .form-container {
     display: grid;

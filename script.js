@@ -27,3 +27,33 @@ function toggleMenu() {
     }
 }
 
+let global_cards = [];
+let projectEle = document.getElementById('Projects');
+
+window.onload = () => {
+    const skill_cards = Array.from(document.getElementsByTagName('figure'));
+    skill_cards.forEach((card) => {
+        card.addEventListener('mouseenter', () => {
+            card.style.backgroundColor = "var(--lightblueopacity1)";
+        });
+        card.addEventListener('click', () => {
+            card.style.overflow = "visible";
+            card.style.width = "350px";
+            card.style.height = "350px";
+            const card_text = card.lastElementChild;
+            card_text.style.webkitLineClamp = "unset";
+            card.style.backgroundColor = "unset";
+        });
+        card.addEventListener('mouseleave', () => {
+            card.style.overflow = "hidden";
+            card.style.width = "300px";
+            card.style.height = "300px";
+            const card_text = card.lastElementChild;
+            card_text.style.webkitLineClamp = "7";
+            card.style.backgroundColor = "unset";
+
+        });
+    });
+  
+};
+
