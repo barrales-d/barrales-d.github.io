@@ -4,7 +4,7 @@ var navtop = document.querySelector('#nav-top');
 var navlinks = document.querySelector('#nav-links');
 
 function toggleMenu() {
-    console.log("clicked");
+    console.log('clicked');
 
     console.log(navtop.children[MENU_BUTTON]);
     console.log(navlinks);
@@ -34,21 +34,21 @@ window.onload = () => {
     const skill_cards = Array.from(document.getElementsByTagName('figure'));
     skill_cards.forEach((card) => {
         card.addEventListener('mouseenter', () => {
-            card.style.backgroundColor = "var(--lightblueopacity1)";
+            card.style.backgroundColor = 'var(--lightblueopacity1)';
         });
         card.addEventListener('click', () => {
-            card.style.overflow = "visible";
-            card.style.height = "350px";
+            card.style.overflow = 'visible';
+            card.style.height = '350px';
             const card_text = card.lastElementChild;
-            card_text.style.webkitLineClamp = "unset";
-            card.style.backgroundColor = "unset";
+            card_text.style.webkitLineClamp = 'unset';
+            card.style.backgroundColor = 'unset';
         });
         card.addEventListener('mouseleave', () => {
-            card.style.overflow = "hidden";
-            card.style.height = "300px";
+            card.style.overflow = 'hidden';
+            card.style.height = '300px';
             const card_text = card.lastElementChild;
-            card_text.style.webkitLineClamp = "7";
-            card.style.backgroundColor = "unset";
+            card_text.style.webkitLineClamp = '7';
+            card.style.backgroundColor = 'unset';
 
         });
     });
