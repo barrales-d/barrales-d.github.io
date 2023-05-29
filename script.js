@@ -38,7 +38,6 @@ window.onload = () => {
         });
         card.addEventListener('click', () => {
             card.style.overflow = "visible";
-            card.style.width = "350px";
             card.style.height = "350px";
             const card_text = card.lastElementChild;
             card_text.style.webkitLineClamp = "unset";
@@ -46,7 +45,6 @@ window.onload = () => {
         });
         card.addEventListener('mouseleave', () => {
             card.style.overflow = "hidden";
-            card.style.width = "300px";
             card.style.height = "300px";
             const card_text = card.lastElementChild;
             card_text.style.webkitLineClamp = "7";

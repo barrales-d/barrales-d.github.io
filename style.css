@@ -214,7 +214,7 @@ code > #orange {
     color: var(--font_color);
 }
 .grid-container > * {
-    width: 300px;
+    width: 400px;
     height: 300px;
     text-align: center;
     border-radius: 20px;
@@ -227,6 +227,7 @@ figure > img {
 }
 figure > figcaption {
     color: var(--font_color);
+    margin: 10px;
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
