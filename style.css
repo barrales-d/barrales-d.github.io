@@ -305,22 +305,16 @@ footer > * {
     .body-container {
         scroll-margin-top: 200px;
     }
-    .grid-container {
-        grid-template: 210px / auto auto auto;
-    }
     .grid-container > * {
-        height: 200px;
+        width: auto;
+        height: auto;
     }
-    figure > img {
-        width: 20vmin; 
-        height: 20vmin;
-    }
-    figcaption > p{
+    figcaption > p {
         display: none;
     }
 }
 @media only screen and (max-width: 600px) {
-    .NavigationBar {
+    .NavigationBar, #nav-links {
         flex-direction: column;
     }
     #nav-links > * {

@@ -1,36 +1,29 @@
 /*Navigation Bar functions*/
-const MENU_BUTTON = 1;
-var navtop = document.querySelector('#nav-top');
-var navlinks = document.querySelector('#nav-links');
+const navtop = document.querySelector('#nav-top');
+const navlinks = document.querySelector('#nav-links');
+
+let menu_clicked = false;
 
 function toggleMenu() {
-    console.log('clicked');
-
-    console.log(navtop.children[MENU_BUTTON]);
-    console.log(navlinks);
-    var button = navtop.children[MENU_BUTTON];
-    //  Turns off the menu(hides links)
-    if (navlinks.children[0].style.display === 'flex') {
-        for (let i = 0; i < navlinks.children.length; i++) {
-            navlinks.children[i].style.display = 'none';
-        }
-        navtop.style.flexDirection = 'row';
+    const links = Array.from(navlinks.children);
+    menu_clicked = !menu_clicked;
+    if(menu_clicked) {
+        navlinks.style.display = 'flex';
+    } else {
+        navlinks.style.display = 'none';
     }
-    //  Turns on the menu(shows links)
-    else {
-        for (let i = 0; i < navlinks.children.length; i++) {
-            navlinks.children[i].style.display = 'flex';
-            //  activates the toggle menu function for the links buttons
-            navlinks.children[i].addEventListener('click', toggleMenu);
+    links.forEach((link) => {
+        if(menu_clicked) {
+            link.style.display = 'flex';
+        } else {
+            link.style.display = 'none';
         }
-        navlinks.style.flexDirection = 'column';
-    }
+        link.addEventListener('click', toggleMenu);
+    });
 }
 
-let global_cards = [];
-let projectEle = document.getElementById('Projects');
-
 window.onload = () => {
+    // Projects
     const skill_cards = Array.from(document.getElementsByTagName('figure'));
     skill_cards.forEach((card) => {
         card.addEventListener('mouseenter', () => {
