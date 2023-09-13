@@ -1,0 +1,16 @@
+._about_section_child > h2 {
+    text-align: center;
+}
+._about_section_child > li {
+    list-style: none;
+}
+._about_section_child > li::first-line {
+    color: var(--blue);
+}
+._about_section_child {
+    text-align: end;
+    width: 50%;
+}
+._align_start {
+    text-align: start;
+}
