@@ -1,7 +1,7 @@
 [
     {
         "title" : "Astro",
-        "img" :   "files/astro.png",
+        "img" :   "files/project/astro.png",
         "desc" :  "Asteroid Clone in Python using Pygame. Made for my CPSC 386( Game Design ) final project.",
         "link" :  "https://github.com/barrales-d/Astro"     
     },
@@ -17,25 +17,25 @@
     },
     {
         "title" : "iTravel App",
-        "img" :   "files/airplane.png",
+        "img" :   "files/project/airplane.png",
         "desc" :  "This project attempted to create an application helps travelers be stress-free, allowing travelers to focus more on enjoying their experience, rather than being stressed out over fight information, and allowed travelers to have all of their information in one application. I learned about databases and APIs while learning Swift.",
         "link" :  "https://github.com/barrales-d/iTravel-Application"     
     },
     {
         "title" : "IPC: Pipes",
-        "img" :   "files/double_pipes.png",
+        "img" :   "files/project/double_pipes.png",
         "desc" :  "A program that creates different process by calling fork(). This program also allows for Interprocess communication between the parent and child processes through the use of double pipes.",
         "link" :  "https://github.com/barrales-d/CalStateFullertonProjects/tree/main/OperatingSystems/DoublePipe"     
     },
     {
         "title" : "Book Management System",
-        "img" :   "files/books.png",
+        "img" :   "files/project/books.png",
         "desc" :  "A program that uses different data structures to storage and manage book data. It explores the disavantages and benefits of using certain data structures: vector, double linked list, single linked list, binary search tree, hash table.",
         "link" :  "https://github.com/barrales-d/CalStateFullertonProjects/tree/main/DataStructures/BookManagementSystem"
     },
     {
         "title" : "Vector2D Struct",
-        "img" :   "files/vectors.png",
+        "img" :   "files/project/vectors.png",
         "desc" :  "A data structure I created when I was in Math 270B which introduced me to mathematical vectors. Vector2d is a template struct that will create a 2d vector and you can do basic vector math with scalars, dot products, and more. With it I was able do the beginning of a physics engine with have different forces interact.",
         "link" :  "https://github.com/barrales-d/CalStateFullertonProjects/tree/main/DataStructures/MathVector"     
     }

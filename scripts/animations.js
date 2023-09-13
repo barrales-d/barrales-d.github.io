@@ -23,7 +23,7 @@ var demo_list = [
 ]
 function demoSwitch() {
     var skill_demo = $("#Demo");
-    var demo = "files/" + demo_list[current_demo];
+    var demo = "files/skill/" + demo_list[current_demo];
     
     $(skill_demo).attr("src", demo);
     current_demo = (current_demo + 1) % demo_list.length
