@@ -18,8 +18,8 @@ $(document).on("scroll", () => {
 //  DEMO CARASEL ANIMATION
 var current_demo = 0
 var demo_list = [
-    "files/skill/ghosa-cute.gif",
-    "files/skill/bloo_sprite_idle.gif"
+    "files/skill/bloo idle animation.gif",
+    "files/skill/bloo jumping animation.gif"
 ]
 function demoSwitch() {
     var skill_demo = $("#Demo");    
@@ -28,6 +28,7 @@ function demoSwitch() {
 }
 
 $(document).ready(()=> {
+    demoSwitch();
     setInterval(demoSwitch, 5000);
 });
 
