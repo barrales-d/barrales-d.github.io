@@ -19,7 +19,8 @@ $(document).on("scroll", () => {
 var current_demo = 0
 var demo_list = [
     "files/skill/bloo idle animation.gif",
-    "files/skill/bloo jumping animation.gif"
+    "files/skill/bloo jumping animation.gif",
+    "files/skill/ship flying and shoot.gif"
 ]
 function demoSwitch() {
     var skill_demo = $("#Demo");    
